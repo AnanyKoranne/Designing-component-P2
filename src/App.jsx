@@ -19,6 +19,7 @@ function App() {
       {cards.map((_, index) => (
         <Productcard key={index} />
       ))}
+      <Productcard></Productcard>
     </div>
   );
 }
